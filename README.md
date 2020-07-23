@@ -1,16 +1,23 @@
-# lista_de_tarefas
+## Aplicativo em Dart de Lista de Tarefas
 
-Uma lista de tarefas diárias
+Um exemplo simples do uso do Dart para criar um aplicativo de lista de tarefas. Utilizando o **package** Flutter* path_provide* para definir e localizar o diretório de uso do armazenamento de dados em *JSON*.
 
-## Getting Started
+###### Screenshots do projeto:
 
-This project is a starting point for a Flutter application.
+[![](https://media2.giphy.com/media/ZcRaV3ouU4cChlkv90/giphy.gif)](https://media2.giphy.com/media/ZcRaV3ouU4cChlkv90/giphy.gif)
 
-A few resources to get you started if this is your first Flutter project:
+###### Dica:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Algo legal para fazer é remover a faixa de** Debug Mode** no seu app de teste.
+Para quem está usando o Android Studio, basta ir na barra lateral Flutter Inspector -> More Actions -> Hide Debug Mode Banner.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![](https://i.stack.imgur.com/lUWuI.png)](https://i.stack.imgur.com/lUWuI.png)
+
+Se você está usando tanto o AS como outra IDE, basta você ir em MaterialApp e colocar o código abaixo:
+
+```dart
+MaterialApp(
+ debugShowCheckedModeBanner: false
+)
+```
+E isso é tudo pessoal!
